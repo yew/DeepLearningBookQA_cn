@@ -1,7 +1,5 @@
 # DeepLearningBookQA_cn
 
-<!---<img src="http://file.epubit.com.cn/ScreenShow/1707d90d7c6c6aa54cca" width = "20%" />-->
-
 ### 那些深度学习《面试》你可能需要知道的（中文页标版）
 
 #### 本文原作者Jin Lee，本文原载于知乎专栏。
@@ -16,19 +14,19 @@
 
 #### 1. 列举常见的一些范数及其应用场景，如 L0，L1，L2，L∞，Frobenius 范数
 
-答：p24-p25 ；还有 p141-p156 有 regularization 的应用
+答：p34-p35 ；还有 p198-p206 有 regularization 的应用
 
 #### 2. 简单介绍一下贝叶斯概率与频率派概率，以及在统计中对于真实参数的假设。
 
-答：p35
+答：p49
 
 #### 3. 概率密度的万能近似器
 
-答：p43：3.10 上面那一段
+答：p60：3.10 上面那一段
 
 #### 4. 简单介绍一下 sigmoid，relu，softplus，tanh，RBF 及其应用场景
 
-答：sigmoid 和 softplus 在 p43 页；全部的在 p123-p127
+答：sigmoid 和 softplus 在 p61 页；全部的在 p123-p127
 
 #### 5.Jacobian，Hessian 矩阵及其在深度学习中的重要性
 
@@ -245,11 +243,11 @@ ICA:p298    `Chapter 13.2`
 
 #### 55.word2vec 与 glove 的比较
 
-答：How is GloVe different from word2vec?；  
+答：[How is GloVe different from word2vec?](https://www.quora.com/How-is-GloVe-different-from-word2vec)；
 
-GloVe 以及 Word2vec 能称为 deep learning 么？这俩模型的层次其实很浅的；
+[GloVe 以及 Word2vec 能称为 deep learning 么？这俩模型的层次其实很浅的；](https://www.zhihu.com/question/27689129)
 
-http://t.cn/RvYslDf
+[Don’t count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors](http://clic.cimec.unitn.it/marco/publications/acl2014/baroni-etal-countpredict-acl2014.pdf)
 
 这个问题没找到答案，我去找了 quora 和知乎上的相关问题以及 quora 一个回答提及的论文。   （若有人在书中找到，请批评指正）
 
@@ -259,7 +257,9 @@ http://t.cn/RvYslDf
 
 #### 57.wide&deep 模型中的 wide 和 deep 介绍
 
-答：https://arxiv.org/pdf/1606.07792.pdf####  此问题答案未在书中找到，为此我去找了原论文，论文图 1 有详细的介绍。 （若有人在书中找到，请批评指正）  
+答：[Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf)
+
+此问题答案未在书中找到，为此我去找了原论文，论文图 1 有详细的介绍。 （若有人在书中找到，请批评指正）  
 
 #### 58. 核回归与 RBF 网络的关系
 
@@ -279,4 +279,4 @@ http://t.cn/RvYslDf
 答：关于非参数模型：p72 ；    `Chapter 5.2` 
 非参数模型不依赖于特定的概率模型，它的参数是无穷维的，数据集的规模的大小影响着模型使用更多或者更少的参数来对其进行建模。(并未在书中找到准确的答案，若有更好的回答，请联系我改正)
 
-本答案是根据问题在_**Deep Learning**_上找到的答案；有些答案只是自己读书后在书上做的笔记的具体页面，毕竟原 po（http://t.cn/RObdPGk） 说还有另外一本书，所以该答案可能不是特别准确也不完善，答案也是给大家做个参考，若发现答案有问题，请联系我并指正，大家共同进步，谢谢！
+本答案是根据问题在《**Deep Learning**》上找到的答案；有些答案只是自己读书后在书上做的笔记的具体页面，毕竟[原po](https://zhuanlan.zhihu.com/p/29965072)说还有另外一本书，所以该答案可能不是特别准确也不完善，答案也是给大家做个参考，若发现答案有问题，请联系我并指正，大家共同进步，谢谢！
